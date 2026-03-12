@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NC-ReadCsv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC-ReadCsv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_AppendBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_AppendBock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_BookmarkBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_BookmarkBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_CalloutBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_CalloutBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_CanvasStyle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_CanvasStyle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_CaptureChanges" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_CaptureChanges.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_CheckboxProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_CheckboxProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_CodeBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_CodeBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_CodePreset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_CodePreset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_ColorPreset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_ColorPreset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_CountryCodePreset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_CountryCodePreset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DatabaseAssembler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DatabaseAssembler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DateProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DateProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DBCreate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DBCreate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DBRowAppend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DBRowAppend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DBRowRewrite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DBRowRewrite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DivideBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DivideBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DocCallout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DocCallout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DocDivide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DocDivide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DocHeading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DocHeading.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DocHeadingDivide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DocHeadingDivide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DocPlainToggle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DocPlainToggle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DocRawData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DocRawData.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_DocToggle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_DocToggle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_EmailProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_EmailProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_EmbedBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_EmbedBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_EraseBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_EraseBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_FileBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_FileBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_FileProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_FileProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_HeadingBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_HeadingBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_HeadingPreset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_HeadingPreset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_HeadlessBLAppend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_HeadlessBLAppend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_HeadlessBLRewrite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_HeadlessBLRewrite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_HeadlessDBAppend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_HeadlessDBAppend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_HeadlessDBRewrite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_HeadlessDBRewrite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_ImageBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_ImageBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_ListBulletBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_ListBulletBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_ListCheckboxBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_ListCheckboxBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_ListNumberBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_ListNumberBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_ListToggleBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_ListToggleBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_MultiSelectProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_MultiSelectProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_NotionConnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_NotionConnect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_NotionConnectLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_NotionConnectLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_NotionUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_NotionUser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_NumberFormatPreset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_NumberFormatPreset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_NumberProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_NumberProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_PageCreate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_PageCreate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_PhoneNumberProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_PhoneNumberProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_QuoteBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_QuoteBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_RewriteBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_RewriteBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_RichTextProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_RichTextProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_SearchDatabase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_SearchDatabase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_SearchPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_SearchPage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_SelectProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_SelectProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_StatusProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_StatusProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_TableBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_TableBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_TableOfContentsBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_TableOfContentsBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_TextBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_TextBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_TitleProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_TitleProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_ToggleHeadingBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_ToggleHeadingBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_UrlProp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_UrlProp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_VersionName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_VersionName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NC_VersionSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\NC_VersionSave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
